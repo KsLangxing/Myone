@@ -70,8 +70,6 @@ var set=function (dm,...sv) {
     }
 }
 
-
-
 //随机数
 var randomto=function(a=1,b=0) {
     return Math.round(Math.random()*a+b);
