@@ -1,0 +1,261 @@
+.cutting{
+    width:1253px;
+    margin:0 auto;
+}
+.cutting-edge{
+	width: 1152px;
+	height: 735px;
+	margin: 0 auto;
+
+}
+.degebanner{
+	display: block;
+	position: relative;
+	font-size: 14px;
+    color: #93999F;
+    letter-spacing: .6px;
+    line-height: 36px;
+    text-align: center;
+}
+.degebanner .tit-icon{
+	display: inline-block;
+    vertical-align: bottom;
+    width: 56px;
+    height: 36px;
+    background:url("http://www.imooc.com/static/img/index/icon.png") no-repeat;
+    background-position: center -288px;
+    margin-right: 24px;
+    background-size: 100%;
+}
+.degebanner em{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D555D;
+    margin: 0 3px;
+    letter-spacing: .6px;
+    line-height: 36px;
+    text-align: center;
+}
+.degebanner .tit-iconc{
+	display: inline-block;
+    vertical-align: bottom;
+    width: 56px;
+    height: 36px;
+    background:url("http://www.imooc.com/static/img/index/icon.png")no-repeat;
+    background-position: center -324px;
+     background-size: 100%;
+    margin-left: 24px;
+}
+.types{
+	width: 1170px;
+	height: 672px;
+	margin-top: 24px;
+/*	background:red;*/
+	
+}
+.types .adsensbox-1{
+    position: relative;
+    overflow: hidden;
+	float: left;
+	width: 567px;
+	height: 108px;
+	margin-bottom: 36px;
+    margin-left: 18px;
+    border-radius: 8px;
+    background: url("http://img.mukewang.com/59784e8800014bfa05670108.jpg")no-repeat center center;
+    background-size: 100%;
+}
+.types .adsensbox-1:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 300%;
+    top: -200%;
+    left: -100%;
+    transform: rotate(45deg);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, .05) 20%,
+    rgba(255, 255, 255, .6) 65%, rgba(255, 255, 255, .05) 100%);
+    background: linear-gradient(left, rgba(255, 255, 255, .05) 20%,
+    rgba(255, 255, 255, .6) 65%, rgba(255, 255, 255, .05) 100%);
+}
+.types .adsensbox-1:hover:before{
+    top: -50px;
+    left: 100%;
+    transition: all .6s linear;
+}
+
+.types .adsensbox-1 a{
+	display:block;
+	padding-top: 30px; 
+}
+.types .adsensbox-1 a .ellipsis{
+	display: block;
+	font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-shadow: 0 2px 2px rgba(7,17,27,.4);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.types .adsensbox-1 a .p{
+	font-size: 12px;
+    color: #FFF;
+    line-height: 16px;
+    text-shadow: 0 2px 2px rgba(7,17,27,.4);
+    margin-top: 4px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.types .adsensbox-l{
+	width: 567px;
+	height: 108px;
+	margin-bottom: 36px;
+    margin-left: 18px;
+    border-radius: 8px;
+    background: url("http://img.mukewang.com/59784f4d0001c35f05670108.jpg")no-repeat center center;
+    background-size: 100%;
+    float: left;
+}
+.types .container{
+	width: 216px;
+	height: 252px;
+	float: left;
+    margin-left: 18px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    transition: all .3s ease;
+}
+.container .hashadow{
+	width: 216px;
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.container .hashadow:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 300%;
+    top: -200%;
+    left: -100%;
+    transform: rotate(45deg);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, .05) 20%,
+    rgba(255, 255, 255, .6) 65%, rgba(255, 255, 255, .05) 100%);
+    background: linear-gradient(left, rgba(255, 255, 255, .05) 20%,
+    rgba(255, 255, 255, .6) 65%, rgba(255, 255, 255, .05) 100%);
+}
+.container .hashadow:hover:before{
+    top: -50px;
+    left: 100%;
+    transition: all .6s linear;
+}
+.container .hashadow img{
+    height: 120px;
+    width: 216px;
+    border-radius: 8px;
+
+}
+
+.hashadow .baohan{
+	
+    margin-top:-35px;
+	padding-left: 8px;
+ 
+    font-size: 12px;
+    color: #FFF;
+    line-height: 16px;
+	
+}
+.hashadow .baohan label{
+	display: inline-block;
+    background: rgba(7,17,27,.4);
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin-bottom: 2px;
+    margin-right: 0;
+    font-weight: 200;
+}
+.course-card-content{
+	padding: 12px 8px;
+	display: block;
+	color: #14191e;
+	width: 200px;
+	height: 104px;
+}
+.course-card-info{
+	width: 200px;
+	height: 24px;
+	font-size: 12px;
+    color: #93999F;
+    line-height: 24px;
+    margin-top: 8px;
+    font-weight: 200;
+}
+.course-card-bottom{
+	width: 200px;
+	height: 52px;
+}
+.course-card-price{
+	font-size: 12px;
+    color: #4D555D;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.mianfei{
+	font-size: 12px;
+    color: #F01414!important;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.dingwei{
+	position: relative;
+}
+.new{
+	background-image: linear-gradient(-90deg,#f68688 0,#f02930 100%);
+	position: absolute;
+    border: 2px solid #FFF;
+    border-radius: 12px;
+    top: -8px;
+    left: -8px;
+    z-index: 4;
+    font-family:dincondm;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+    padding: 0 4px;
+}
+.container:hover{
+	cursor: pointer;
+}
+.container:hover h3{
+	color: #F01414;
+	transition: all .3s ease;
+}
+.container:hover .hashadow{
+	box-shadow: 0px 5px 8px 3px rgba(0,0,0,0.3);
+	transition: all .3s ease;
+	
+}
+
+.course-card-info span .icon-person_outline{
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 0;
+}
+.course-card-info .julidy{
+    margin-left: 15px;
+}
+.icon-star-full{
+    color: #f90;
+    font-size: 10px;
+    
+}
+

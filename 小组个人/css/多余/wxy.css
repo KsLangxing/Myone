@@ -1,0 +1,289 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgqmx {
+    width: 100%;
+    height: 457px;
+}
+
+.wxy-contentait {
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 0 48px;
+}
+
+.wxy-contentait-title {
+    position: relative;
+    font-size: 14px;
+    color: #93999F;
+    letter-spacing: .6px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.wxy-contentait-title em {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f3af01;
+    margin: 0 3px;
+}
+
+.wxy-title-icon-l {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 56px;
+    height: 36px;
+    background: url(http://www.imooc.com/static/img/index/icon.png) no-repeat;
+    background-size: 100%;
+    background-position: center -504px;
+}
+
+.wxy-title-icon-r {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 56px;
+    height: 36px;
+    background: url(http://www.imooc.com/static/img/index/icon.png) no-repeat;
+    background-size: 100%;
+    background-position: center -540px;
+}
+
+.wxy-start-list {
+    width: 1152px;
+    height: 298px;
+    background-color: #fff;
+
+}
+
+.wxy-start-list-l {
+    width: 100px;
+    margin-right: 100px;
+    height: 298px;
+    /*background: darkred;*/
+    float: left;
+}
+
+.wxy-start-list-l dd {
+    width: 76px;
+    text-align: center;
+    padding-top: 18px;
+    transition: all .6s ease;
+    float: left;
+}
+
+.wxy-start-list-l dd:nth-child(2) {
+    margin-left: -25px;
+}
+
+.wxy-start-list-l dd:nth-child(3) {
+    margin-left: -25px;
+}
+
+.wxy-start-list-r {
+    height: 298px;
+    width: 952px;
+    /*background: cornflowerblue;*/
+    position: relative;
+    float: left;
+}
+
+.list-lead-item {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wxy-_blank img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, .1);
+}
+
+.wxy-color {
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    top: -16px;
+    left: 15px;
+    background: url(http://www.imooc.com/static/img/index/champion.png) no-repeat;
+    background-size: 100%;
+}
+
+.wxy-show {
+    width: 189px;
+    height: 298px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+    background: #f2f2f2;
+    transition: all .3s ease;
+    border-radius: 20px;
+}
+
+.wxy-show img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.wxy-show-div {
+    width: 189px;
+    text-align: center;
+}
+
+.wxy-show-div-p1 {
+    font-size: 20px;
+}
+
+.wxy-show-div-p2 {
+    font-size: 14px;
+    color: #000;
+    width: 130px;
+    margin: 20px 30px;
+}
+
+.wxy-student {
+    width: 400px;
+    height: 298px;
+    position: relative;
+    float: left;
+    margin-left: 70px;
+}
+
+.othen-item {
+    position: absolute;
+    border-radius: 48px;
+    font-size: 0;
+    width: 52px;
+    transform-origin: center 140px;
+    transform: rotate(36deg);
+    box-sizing: border-box;
+    transition: all .3s;
+    left: 104px;
+    top: 9px;
+}
+
+/*.othen-item:hover {*/
+/*top: 15px;*/
+/*}*/
+
+/*.othen-item img:hover {*/
+/*border: 2px solid #653ddd;*/
+/*}*/
+
+.othen-item img {
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    box-sizing: border-box;
+    transition: all .3s;
+    border: 2px solid #fff;
+    transform: rotate(0deg);
+}
+
+.minxing {
+    overflow: hidden;
+    position: absolute;
+    top: 68px;
+    left: 52px;
+    width: 160px;
+    height: 160px;
+}
+
+.othen-item-showtwo {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.othen-item-show {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 30px;
+    transform: rotateY(-90deg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.othen-item-showtwo img {
+    width: 160px;
+    height: 160px;
+    /*background: #ff6700;*/
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.othen-item-show-title {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 200;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.othen-item-show-nickname {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.othen-item-show-desc {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 8px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.wxx {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    background-color: #000;
+    opacity: 0.45;
+}
+
+.wyy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+}

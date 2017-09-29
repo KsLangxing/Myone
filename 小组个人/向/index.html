@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/shouwei.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body>
+<div class="box">
+	<div class="footer idx-minwidth">
+		<div class="container">
+			<div class="footer-wrap">
+				<div class="footer-sns">
+					<div class="l">
+						<a href="javascript:void(0);" class="footer-sns-weixin" title="微信">
+						    <i class="iconfont icon-wechat"></i>
+							<i class="footer-i"></i>
+						</a>
+						<p>官方公众号</p>
+					</div>
+					<div class="l">
+						<a href="javascript:void(0)" class="footer-a hide-text" title="新浪微博">
+							<i class="iconfont icon-weibo-copy"></i>
+						</a>
+						<p>官方微博</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-link">
+				<a href="javascript:void(0)" title="企业合作">企业合作</a>
+				<a href="javascript:void(0)" title="人才招聘">人才招聘</a>
+				<a href="javascript:void(0)" title="联系我们">联系我们</a>
+				<a href="javascript:void(0)" title="讲师招募">讲师招募</a>
+				<a href="javascript:void(0)" title="常见问题">常见问题</a>
+				<a href="javascript:void(0)" title="意见反馈">意见反馈</a>
+				<a href="javascript:void(0)" title="慕课大学">慕课大学</a>
+				<a href="javascript:void(0)" title="友情链接">友情链接</a>
+			</div>
+			<div class="footer-copyright">
+				<p>©&nbsp;2017&nbsp;imooc.com&nbsp;&nbsp;京ICP备 13046642号-2</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="J_GotoTop" class="elevator">
+	<a href="javascript:void(0)" class="elevator-msg">
+		<i class="iconfont icon-wenti"></i>
+		<span class="span">意见反馈</span>
+	</a>
+	<a href="avascript:void(0)" class="elevator-faq">
+		<i class="iconfont icon-faq"></i>
+		<span class="span">常见问题</span>
+	</a>
+	<a href="avascript:void(0)" target="_blank" class="elevator-app">
+		<i class="iconfont icon-5app"></i>
+		<span class="span">APP下载</span>
+		<div class="elevator-app-box"></div>
+	</a>
+	<a href="javascript:void(0)" class="elevator-weixin no-goto" id="js-elevator-weixin">
+		<i class="iconfont icon-buchongiconsvg02"></i>
+		<span class="span">官方微信</span>
+		<div class="elevator-weixin-box"></div>
+	</a>
+	<a href="javascript:void(0)" class="elevator-top no-goto" id="backTop" style="display: none">
+		<i class="iconfont icon-shang"></i>
+		<span class="span">返回顶部</span>
+	</a>
+</div>
+<script type="text/javascript">
+	var backTopDom = document.getElementById('backTop');
+	window.onscroll = function(){
+	var t = document.documentElement.scrollTop || document.body.scrollTop;
+	  if (t >= 500) {
+	  	backTopDom.style.display = 'block';
+	  }else{
+	  	bakcTopDom.style.display = 'none';
+	  }
+
+	  var timert = null;
+	    backTopDom.onclick = function(){
+	    	window.scrollTo(0,0);
+		}
+	}
+};
+
+</script>
+</body>
+</html>
